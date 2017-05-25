@@ -1,5 +1,5 @@
 
-
+------borrador-------------------
 select replace('*','*','6')
 DECLARE
   dato VARCHAR (10) := '*';
@@ -13,3 +13,16 @@ END;
 -----------------
 
 select replace('*','*','6')
+----------------------------------------------
+
+---------final----------------
+SELECT REPLACE('*','*','6') "Changes"
+     FROM DUAL;
+     
+
+SELECT REPLACE('222tech','2','3') "replaces"
+     FROM DUAL;
+     
+
+SELECT REPLACE('1210.73','3','3.') "number"
+     FROM DUAL;
