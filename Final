@@ -1,0 +1,15 @@
+
+
+select replace('*','*','6')
+DECLARE
+  dato VARCHAR (10) := '*';
+BEGIN
+  -- Reemplaza las 'e' por el carácter '*'
+  DBMS_OUTPUT.put_line (
+    REPLACE (dato, '*', '6')
+  );
+END;
+
+-----------------
+
+select replace('*','*','6')
